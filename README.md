@@ -1,5 +1,6 @@
 # Music_Genres_Classification
 
+##Goal:Given audio files for songs , identify which genre they fall in 
 Downloaded the Music Genres dataset from https://www.dropbox.com/s/4jw31k5mlzcmgis/genres.tar.gz
 
 The Dataset contains 10 Genres of music :
