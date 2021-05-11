@@ -16,14 +16,15 @@ The Dataset contains 10 Genres of music :
 * Rock
 
 
-* Each Genre contains 100 audio files each of duration 30s.
-* we need to convert audio files into wav files
+ Each Genre contains 100 audio files each of duration 30s.
+ we need to convert audio files into wav files
 
 ## Models
 I have explored the problem using two approaches 
 1) Using ANN Model which made use of features such as MFCC's,spectral centroids, extracted features from (Feature_Extraction.ipynb) are in Extracted_Features.csv.Check Music_Genres_classification_ANN.ipynb
-2) Using Convolutional Neural Network (CNN) Model which made use of Mel Spectrogram of the Audio Files.check Music_Genres_classification_CNN.ipynb
+2) Using Convolutional Neural Network (CNN) Model which uses  Mel Spectrogram of the Audio Files.check Music_Genres_classification_CNN.ipynb
 
 ## Results
 
-ANN model is giving quite good test accuracy of 72.5
+ANN model is giving quite good test accuracy of 72.5%
+CNN model using spectrograms gave test accuracy of 60%
